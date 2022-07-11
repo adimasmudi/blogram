@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Card() {
+export default function Comment() {
   return (
-    <div class=" bg-white rounded-lg border border-gray-200 shadow-md  mt-2 mb-4 mx-auto w-2/3 pt-4">
+    <div class="post-section mt-2 mb-2 ml-2 mr-2 mx-auto min-w-fit pt-4 ">
       <div class="flex flex-row w-40 justify-around items-center">
         <a href="/profil">
           <img
@@ -15,20 +15,6 @@ export default function Card() {
           <span class="font-bold">Masmudi</span>
         </a>
       </div>
-      <div>
-        <a href="details">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-black ml-4 mt-2">
-            Noteworthy technology acquisitions 2021
-          </h5>
-        </a>
-      </div>
-      <a href="/details">
-        <img
-          class="rounded-t-lg mx-auto"
-          src="https://source.unsplash.com/gySMaocSdqs/800x400"
-          alt=""
-        />
-      </a>
       <div class="p-5">
         <p class="mb-3 font-normal text-gray-700">
           Here are the biggest enterprise technology acquisitions of 2021 so
